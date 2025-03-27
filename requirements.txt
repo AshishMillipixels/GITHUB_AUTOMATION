@@ -1,0 +1,44 @@
+"""Project structure:
+
+GITHUB_AUTOMATION/
+|--.env
+│── config.py          # Stores GitHub API token & configurations
+│── git_operations.py  # Handles Git commands (branching, committing, merging)
+│── github_api.py      # Interacts with GitHub API (creating repos, PRs)
+│── main.py            # CLI interface for GitHub automation
+│── requirements.txt   # Dependencies for the project
+|--app.py
+"""
+
+"""
+1. Clone the Repo
+git clone https://github.com/your-username/GITHUB_AUTOMATION.git
+cd GITHUB_AUTOMATION
+
+
+2. Install the dependencies
+
+DEPENDENCIES:
+
+HOW TO INSTALL? ->pip install click(or anyother)
+
+click           # CLI command handling
+gitpython       # Interacting with Git repositories
+requests        # Making API calls to GitHub
+
+
+3.Set Up GitHub API Token
+Generate a GitHub Personal Access Token (Guide).
+Add it to config.py:
+
+GITHUB_TOKEN = "your_github_personal_access_token"
+
+
+Ensure the token has repo & workflow permissions.
+
+"""
+
+
+"""Data structure and alogrithm is a cruical part of software engineering preparation journey. We can't just ignore
+just cause it's tough or not been asked in the past interviews. We all should be working like together to build
+things in the corner round, for exsistence of out the blow indif, knight the play urgently looking for the tehodilite
